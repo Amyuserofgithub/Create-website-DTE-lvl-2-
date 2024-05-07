@@ -1,0 +1,29 @@
+<!DOCTYPE html!>
+
+<!-— this tells the counter that it is a website —->
+
+
+<html> 
+<!-- our head tap is where we set our character set and create links/paths to files we will be using —-> 
+<head> 
+ <!—-sets character set to unicode-—>
+<meta charset = 
+ “utf-8”>
+
+<!—-links to css / path -—> 
+
+
+<link rel = “stylesheet’ type = “text/css” href= “css/style.css”> 
+
+
+<!—- Names our webpage -—> 
+<title> My New Webpage 
+</title>
+</head>
+
+<body>
+<h1> This is a header</h1>
+</body>
+ 
+</html>
+
