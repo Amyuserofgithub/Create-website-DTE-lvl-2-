@@ -1,5 +1,52 @@
 
 
-h1 { color: red;
+h1 { 
+  color: red;
+  text-align: center; 
 
+body{ 
+  margin: 0px; 
 }
+
+main {
+ margin: 50px; 
+}
+  
+  
+} 
+
+p { 
+font-size 13px; 
+}
+
+.navbar ul{ 
+  list-style-type: none; 
+  background-color: rgb(52, 50 ,49);
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+ 
+}
+
+.navbar a{
+  color: rgb(227, 219, 211);
+  text-size: 14px; 
+  text-decoration: none;
+  padding: 14px; 
+}
+  
+.navbar a:hover{
+  background-color: rgb( 113, 113, 111);
+  
+} 
+
+.navbar ul li a{ 
+ float: left;
+}
+
+
+
+
+
+
+
