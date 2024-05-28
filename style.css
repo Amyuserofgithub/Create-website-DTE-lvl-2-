@@ -44,6 +44,20 @@ font-size 13px;
  float: left;
 }
 
+.gallery{
+margin: 15px;
+  padding: 20px;
+  width: px;
+  display: inline-block; 
+
+} 
+ img{
+border-top: 20px solid rgb(150, 85, 30);
+  border-bottom: 20px solid rgb(150, 85, 30);
+  border-right: 20px solid rgb(165, 95, 40);
+  border-left: 20px solid rgb(165, 95, 40);
+  margin: 10px 10px 10px 10px;
+} 
 
 
 
