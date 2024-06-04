@@ -1,22 +1,22 @@
 
 
 h1 { 
-  color: red;
+  color: rgb(52, 50 ,49);
   text-align: center; 
 
-body{ 
-  margin: 0px; 
+body {
+ background-color: rgb(227, 219, 211);
 }
 
-main {
- margin: 50px; 
-}
+
   
   
 } 
 
 p { 
-font-size 13px; 
+font-size 13px;
+ color: rgb(227, 219, 211);
+background-color: rgb(52, 50 ,49);
 }
 
 .navbar ul{ 
@@ -45,13 +45,16 @@ font-size 13px;
 }
 
 .gallery{
-margin: 15px;
+  text-align: left; 
+  margin: 20px;
   padding: 20px;
   width: px;
   display: inline-block; 
 
 } 
  img{
+width: 700px; 
+vertical-align: middle;
 border-top: 20px solid rgb(150, 85, 30);
   border-bottom: 20px solid rgb(150, 85, 30);
   border-right: 20px solid rgb(165, 95, 40);
@@ -59,8 +62,86 @@ border-top: 20px solid rgb(150, 85, 30);
   margin: 10px 10px 10px 10px;
 } 
 
+.logo {
+border: 0px solid rgb(150, 85, 30);
+width: 200px;
+height: 90px; 
+vertical-align: middle;
+}
+
+.projects {
+border: 0px solid rgb(150, 85, 30);
+width: 400px;
+height: 290px; 
+text-align: right; 
+}
+
+h2{
+ text-align: center; 
+text-size 20px;
+color: rgb(227, 219, 211);
+background-color: rgb(52, 50 ,49); 
+}
 
 
 
 
+.nicky {
+width: 40%;
+}
+
+.infoteacher{
+text-align center
+
+}
+
+.aboutus {
+ border: 2px solid rgb(129, 131, 153);
+}
+
+header{
+
+}
+
+section {
+width: 59%; 
+float: left; 
+border: 10px solid rgb(129, 0, 0);
+padding: 10px;
+margin: 5px; 
+height: 250px;
+
+}
+
+article {
+width: 59%; 
+float: left; 
+border: 10px solid rgb(129, 0,0);
+padding: 10px;
+margin: 5px;
+height: 250px; 
+
+}
+
+aside {
+padding: 10px; 
+width: 34.3%;
+clear:left;
+float: right; 
+border: 10px solid rgb(0, 0, 300);
+height: 555px;
+
+}
+
+footer {
+float: left;
+padding: 10px; 
+text-align: center;
+width: 100%;
+border: 10px solid rgb(129, 300, 0);
+height: 20px;
+color: red
+margin: 5px 0px 0px 0px; 
+
+}
 
