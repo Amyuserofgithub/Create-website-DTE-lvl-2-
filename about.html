@@ -1,31 +1,44 @@
+
 <!DOCTYPE html> <!-- this tells the computer that it is a webpage-->
 
 
-<html lang = "en" > 
+<html lang = "en" > <!-- tells computer what language the webpage is in -->
 
-<head>
+<head> <!-- holds the machine processing information-->
  
 
 	<meta charset="utf-8"> <!-- sets character set to unicode-->
 
-<link rel="stylesheet" type="text/css" href="css/style.css"> 
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet"> <!-- links font to html and css -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> <!-- links font to html and css -->
+
+<link rel="stylesheet" type="text/css" href="css/style.css"> <!--links html to css-->
 
 
-<title> About Create </title> 
+<title> About Create </title> <!--titles the web page -->  
 
 
 </head>
 
 
 
-<body>
+<body> <!-- holds the content for the website, primarily visible content information-->
 
-<div class = yellow > <img  class= "logo1" src= "file:///Users/amyhodges/Desktop/Screenshot%202024-06-18%20at%203.04.03%20PM.png" alt= "Image of create's logo from ABC iview" >
+<div class = yellow > <!-- creates section with the div element to fill in the nav bar and logo to fix missing color issue  -->
 
- <nav class= "navbar">
-  <ul> 
-     <li><a href ="index.htm">Home</a></li> 
-     <li><a href ="about.html">About us</a></li> 
+<img  class= "logo1" src= "file:///Users/amyhodges/Desktop/website_project/images/Screenshot%202024-06-18%20at%203.04.03%20PM.png" alt= "Image of create's logo from ABC iview" > <!-- adds the image into the html webpage, the classes allow for specific features to be added eg heights and borders, the alt makes it so if the image doesn't show the text will tell the user what the image was --> 
+
+ <nav class= "navbar"> <!-- holds the navbar elements and class allows for stylisation of it in css --> 
+  <ul> <!-- unordered list item, helps group items when there is no numerical order asigned--> 
+     <li><a href ="index.htm">Home</a></li> <!-- the li element tells computer its a list item in the unordered list--> 
+     <li><a href ="about.html">About us</a></li> <!-- the a href element creates a link to another page --> 
+
      <li><a href ="expoandnews.html">Expo and news</a></li> 
      <li><a href ="gallary.html">Gallery</a></li> 
      <li><a href ="projects.html">Projects</a></li> 
@@ -35,31 +48,61 @@
 
 </div>
 
-<main> 
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
-<header> <h1>About Us</h1> </header>
+<main> <!-- stores main  and written contention the webpage -->  
 
- <aside>  <div class= "aboutus"> <img  class= "nicky" src= "file:///Users/amyhodges/Desktop/Screenshot%202024-05-28%20at%203.00.24%20PM.png" alt = "a picture of Nicky, the Puna teacher.">
- </div> </aside> 
+<header> <h1>About Us</h1> </header> <!-- gives page a heading --> 
 
- <section> 
-  <h2>  information about creates story </h2> 
+ <aside>     <!-- creates a compartment for the side part of the content  -->  
 
-<p>TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TESTTEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TESTTEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST</p> </section>
+<div class= "move"> <!-- the div and class is being used to move the image to the center of the aside element through css -->  
 
- <article> 
- <h2>  information about progress this year </h2> 
+<img  class= "nicky" src= "file:///Users/amyhodges/Desktop/website_project/images/Screenshot%202024-05-28%20at%203.00.24%20PM.png" alt = "a picture of Nicky, the Puna teacher.">
+ 
+<!-- the class changes image size and the  img src = adds in the image --> 
+ 
+<p> info about the major role the teacher had on the the Create Puna</p> <!-- content explains the image --> 
+
+</div> 
+
+</aside> 
+
+ <section>  <!-- creates a compartment for the main part of the content  --> 
+  
+<h2>  information about creates story </h2> <!-- heading for the section --> 
+
+<p>TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TESTTEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TESTTEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST</p> <!-- tests how actual text will fit into the compartment so it can be added by client later, equivalent of lorem ipsum -->
+
+</section>
+
+ <article> <!-- creates a compartment for the second main part of the content  -->
+ 
+<h2>  information about progress this year </h2> <!-- titles second compartment -->
 
 <p>TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TESTTEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TESTTEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST</p> </article>
   
 
 
-<div class = "movefooter"> </div>
+<div class = "movefooter"> </div>  <!-- used to move the footer down the page in css --> 
 
 
 </main>
 
-<footer>  Create 2024 </footer>
+<footer> <!-- tells user its the end section of the page, used for structure -->
+
+  Create 2024  <!-- titles footer -->   
+
+<a class= "media" href=  "https://youtube.com/@rhsmedia2126?si=7ZVAnJ77mNt9Fg7W" target =  "blank"  > <ion-icon name="logo-youtube"></ion-icon> </a> 
+
+<a class= "media" href=  "https://www.instagram.com/rshs_pw/" target =  "blank"  > <ion-icon name="logo-instagram"></ion-icon></a>
+
+<a class= "media" href=  "https://www.facebook.com/rototunahighschools" target =  "blank"  > <ion-icon name="logo-facebook"></ion-icon> </a> 
+
+<!-- The a element with the href makes it a link, the media class is to style the icons in css, the target = blank makes it so a new page is open so the create home page does not open, the https part is the link to the social media page.  -->
+
+</footer>
 
 </body>
  
