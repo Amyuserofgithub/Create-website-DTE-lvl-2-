@@ -1,31 +1,56 @@
 <!DOCTYPE html> <!-- this tells the computer that it is a webpage-->
 
 
-<html lang = "en" > 
+<html lang = "en" > <!-- tells computer what language the webpage is in -->
 
-<head>
+<head> <!-- holds the machine processing information-->
  
 
 	<meta charset="utf-8"> <!-- sets character set to unicode-->
 
-<link rel="stylesheet" type="text/css" href="css/style.css"> 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet"> <!-- links font to html and css -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> <!-- links font to html and css -->
 
 
-<title>  gallery </title>
+
+
+<link rel="stylesheet" type="text/css" href="css/style.css"> <!--links html to css-->
+
+
+<title>  gallery </title> <!--titles the web page -->
 
 
 </head>
 
 
 
-<body>
+<body> <!-- holds the content for the website, primarily visible content information-->
 
-<div class = yellow > <img  class= "logo1" src= "file:///Users/amyhodges/Desktop/Screenshot%202024-06-18%20at%203.04.03%20PM.png" alt= "Image of create's logo from ABC iview" >
 
- <nav class= "navbar">
-  <ul> 
-     <li><a href ="index.htm">Home</a></li> 
-     <li><a href ="about.html">About us</a></li> 
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script> <!-- links in information for the footer social media icons-->
+
+
+<div class = yellow > <!-- creates section with the div element to fill in the nav bar and logo to fix missing color issue  -->
+
+<img  class= "logo1" src= "file:///Users/amyhodges/Desktop/website_project/images/Screenshot%202024-06-18%20at%203.04.03%20PM.png" alt= "Image of create's logo from ABC iview" >
+<!-- adds the image into the html webpage, the classes allow for specific features to be added eg heights and borders, the alt makes it so if the image doesn't show the text will tell the user what the image was --> 
+
+ <nav class= "navbar"> <!-- holds the navbar elements and class allows for stylisation of it in css --> 
+  
+<ul> <!-- unordered list item, helps group items when there is no numerical order asigned-->
+
+     <li><a href ="index.htm">Home</a></li> <!-- the li element tells computer its a list item in the unordered list--> 
+
+
+     <li><a href ="about.html">About us</a></li> <!-- the a href element creates a link to another page --> 
+
+ 
      <li><a href ="expoandnews.html">Expo and news</a></li> 
      <li><a href ="gallary.html">Gallery</a></li> 
      <li><a href ="projects.html">Projects</a></li> 
@@ -34,34 +59,51 @@
  </nav>
 </div> 
 
-<main> 
+<main> <!-- stores main  and written contention the webpage --> 
 
-<h1>Gallery</h1>
+<h1>Gallery</h1>  <!-- gives page a heading --> 
 
 
- <div class="gallery">
-  <img class="galleryimage" src= "file:///Users/amyhodges/Desktop/Screenshot%202024-05-26%20at%208.00.11%20PM.png" alt= "image of group beauty salon's work" >
+ <div class="gallery">  <!--  class used to give specific stylisation on the gallery images and text --> 
 
-  <p class="gallery"> Group: beauty salon </p>
+
+  <img src= "file:///Users/amyhodges/Desktop/website_project/images/Screenshot%202024-05-26%20at%208.00.11%20PM.png" alt= "image of group beauty salon's work" > <!-- links in image of group work and alternate text --> 
+
+  <p class="gallery"> Group: beauty salon </p> <!-- text telling who the work belongs to --> 
  
- <img class="galleryimage" src= "file:///Users/amyhodges/Desktop/Screenshot%202024-05-26%20at%208.00.28%20PM.png" alt= "image of group Cozy Candles's work" >
+ <img src= "file:///Users/amyhodges/Desktop/website_project/images/Screenshot%202024-05-26%20at%208.00.28%20PM.png" alt= "image of group Cozy Candles's work" >
   
 <p class="gallery"> Group: Cozy Candles </p>
   
-<img  class="galleryimage" src= "file:///Users/amyhodges/Desktop/Screenshot%202024-05-26%20at%208.00.43%20PM.png" alt= "image of group painting the bathrooms's work">
+<img src= "file:///Users/amyhodges/Desktop/website_project/images/Screenshot%202024-05-26%20at%207.51.51%20PM.png" alt= "image of group painting the bathrooms's work">
  
  <p class="gallery"> Group: Painting The Bathrooms </p>
   
-<img class="galleryimage" src= "file:///Users/amyhodges/Desktop/Screenshot%202024-05-26%20at%208.00.56%20PM.png" alt= "image of group Cute Cards's work">
+<img  src= "file:///Users/amyhodges/Desktop/website_project/images/Screenshot%202024-05-26%20at%208.00.56%20PM.png" alt= "image of group Cute Cards's work">
   
 <p class="gallery"> Group: Cute Cards </p> 
  
 </div>
 
-<div class = "movefooter"></div>
+<div class = "movefooter"></div>  <!-- used to move the footer down the page in css --> 
+
 </main>
 
-<footer>  Create 2024 </footer>
+<footer>  <!-- tells user its the end section of the page, used for structure -->
+
+Create 2024 <!-- titles footer --> 
+
+
+<a class= "media" href=  "https://youtube.com/@rhsmedia2126?si=7ZVAnJ77mNt9Fg7W" target =  "blank"  > <ion-icon name="logo-youtube"></ion-icon> </a> 
+
+<a class= "media" href=  "https://www.instagram.com/rshs_pw/" target =  "blank"  > <ion-icon name="logo-instagram"></ion-icon></a>
+
+<a class= "media" href=  "https://www.facebook.com/rototunahighschools" target =  "blank"  > <ion-icon name="logo-facebook"></ion-icon> </a>
+
+<!-- The a element with the href makes it a link, the media class is to style the icons in css, the target = blank makes it so a new page is open so the create home page does not open, the https part is the link to the social media page.  -->
+
+
+</footer>  
 
 
 
