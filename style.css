@@ -1,147 +1,218 @@
 
 
 h1 { 
-  color: rgb(52, 50 ,49);
-  text-align: center; 
-
-body {
- background-color: rgb(227, 219, 211);
-}
-
-
+  color: rgb(251,195,4); /* changes the color of the text in the h1 elements */
+  text-align: center;  /* makes it so the h1 element always go to the center of its compartment (eg. div or article)  */
+  font-family: "Courier Prime"; /* changes the font of the text */
   
   
 } 
 
-p { 
-font-size 13px;
- color: rgb(227, 219, 211);
-background-color: rgb(52, 50 ,49);
+
+
+
+body{ 
+background-color: rgb(236,132,155); /* styles the webpage body with a dark pink background */
+
 }
 
+
+p { 
+font-size: 1.1em; /* changes the size of the p element, relative to the screen size */
+ color: black; /* changes the color of the text in p element */
+background-color: rgb(243,188,196); /* changes the background color of the text in p element */
+font-family: "Lexend"; /* changes the font of the text */
+
+}
+
+
+
+.logo1 {
+position: absolute; /* makes it so logo does not follow typical flow of webpage, relative to other elements, so position of the image won't change even if screen size changes */
+border: 0px solid rgb(150, 85, 30); /* removes border for logo */
+width: 135px; /* sets image width */
+height: 75px; /* sets image height on screen */
+margin: 0px; /* ensures there's no blank  space around the logo in navbar */
+}
+
+
+
 .navbar ul{ 
-  list-style-type: none; 
-  background-color: rgb(52, 50 ,49);
-  padding: 0px;
-  margin: 0px;
-  overflow: hidden;
+  list-style-type: none; /* removes bullet points */
+  background-color: rgb(251,211,76); /* sets background color of the nav bar */
+  padding: 0px; /* the padding set to 0 ensures there's no empty space between navbar and image  */ 
+  margin-left: 140px; /* the margin moves the navbar over to the left to fit in the logoe  */
+  overflow: hidden; /* hides any overflow that may overflow the parent element */ 
  
 }
 
 .navbar a{
-  color: rgb(227, 219, 211);
-  text-size: 14px; 
-  text-decoration: none;
-  padding: 14px; 
+  color: rgb(227,84,115); /* changes he text color of the navbar webpage links */ 
+  text-decoration: none; /* removes underline from the links */ 
+  padding: 14px; /* creates space between each link to the webpages in navbar */ 
+  font-size: 20px; /* changes font size of the link text */ 
+  font-family: "Lexend"; /* changes font style */ 
 }
   
 .navbar a:hover{
-  background-color: rgb( 113, 113, 111);
+  background-color:  rgb(251,195,4);; /* sets background color of the nav bar when a person hovers over it */
   
 } 
 
 .navbar ul li a{ 
- float: left;
+ float: left; /* makes it so all items in navbar, ul, li, and a  all go towards the left of the page rather than the centre or right. */
+height: 45px; /* determines the height of the nav bar  */
 }
 
 .gallery{
-  text-align: left; 
-  margin: 20px;
-  padding: 20px;
-  width: px;
-  display: inline-block; 
+  text-align: left; /* makes it so the text sits under the images to the left of the gallery webpage */
+  margin: 20px;/* pushes text from the left to the right so it sits under the images  */
+  padding: 20px; /* creates space between the text the image above and below  */
+ width: 500px;  /* sets width of text under image to be the same as gallery images   */
 
 } 
  img{
-width: 700px; 
-vertical-align: middle;
-border-top: 20px solid rgb(150, 85, 30);
-  border-bottom: 20px solid rgb(150, 85, 30);
-  border-right: 20px solid rgb(165, 95, 40);
-  border-left: 20px solid rgb(165, 95, 40);
-  margin: 10px 10px 10px 10px;
+width: 500px; /* sets image widths to 500 pixels  */
+border-top: 20px solid rgb(150, 85, 30); /* gives a border on top to all images  */
+  border-bottom: 20px solid rgb(150, 85, 30); /* gives a border on bottom to all images  */
+  border-right: 20px solid rgb(165, 95, 40); /* gives a border on right to all images  */
+  border-left: 20px solid rgb(165, 95, 40); /* gives a border on left to all images  */
+  margin: 10px; /* creates a margin of blank space around the images  */
 } 
 
-.logo {
-border: 0px solid rgb(150, 85, 30);
-width: 200px;
-height: 90px; 
-vertical-align: middle;
+.center {
+
+text-align: center; /* makes project image go to the center of the page   */
+
 }
 
-.projects {
-border: 0px solid rgb(150, 85, 30);
-width: 400px;
-height: 290px; 
-text-align: right; 
-}
+
 
 h2{
- text-align: center; 
-text-size 20px;
-color: rgb(227, 219, 211);
-background-color: rgb(52, 50 ,49); 
+ text-align: center; /* makes a heading2 elements go to the center of webpage  */
+font-size: 20px; /* makes a heading2 elements  have a font size of 22 pixels  */
+color: rgb(227,84,115); /* makes a heading2 elements  have a font size of 22 pixels  */
+background-color: rgb(251,211,76); /* makes a heading2 elements  have a background color of yellow */
+font-family: "Courier Prime"; /* changes h2 to the courier prime font family rather than the default font */
 }
 
 
 
 
 .nicky {
-width: 40%;
+height: 30vh; /* changes the height of image of Nicky to 30% of screen size  */
+width: 30vw;/* changes the width of image of Nicky to 30% of screen size  */
+text-align: center;  /* changes alignment of image of Nicky so it sits in the middle its element compartment  */
 }
 
-.infoteacher{
-text-align center
 
-}
 
-.aboutus {
- border: 2px solid rgb(129, 131, 153);
-}
 
-header{
-
-}
 
 section {
-width: 59%; 
-float: left; 
-border: 10px solid rgb(129, 0, 0);
-padding: 10px;
-margin: 5px; 
-height: 250px;
+width: 56vw; /* sets width of the section to 56% of the window */ 
+float: left; /* makes section element go to the left side of the webpage */
+border: 4px solid rgb(251,195,4);
+padding: 10px; /* creates background around the content in element */ 
+margin: 5px; /* gives space between the element and border  */
+height: 39vh; /* sets height of section to 39% of the window */ 
+background-color: rgb(251,211,76); /* sets background color of section */ 
 
 }
 
 article {
-width: 59%; 
-float: left; 
-border: 10px solid rgb(129, 0,0);
-padding: 10px;
-margin: 5px;
-height: 250px; 
+width: 56vw; /* sets width of article to 56% of the window */ 
+float: left; /* makes article element go to the left side of the webpage */
+border: 4px solid rgb(251,195,4);
+padding: 10px; /* creates background around the content in element */ 
+margin: 5px; /* gives space between the element and border  */
+height: 39vh; /* sets height of article to 39% of the window */ 
+background-color: rgb(251,211,76); /* sets background color of article */ 
 
 }
 
 aside {
-padding: 10px; 
-width: 34.3%;
-clear:left;
-float: right; 
-border: 10px solid rgb(0, 0, 300);
-height: 555px;
+padding: 10px; /* gives space between content and border */ 
+width: 35.5vw; /* sets width of aside to 35.5% of the window */ 
+float: right; /* makes aside element go to the right side of the webpage */
+border: 4px solid rgb(251,195,4);
+height: 81.5vh; /* sets height of aside to 81.5% of the window */ 
+background-color: rgb(251,211,76); /* sets background color of aside */ 
 
 }
 
 footer {
-float: left;
-padding: 10px; 
-text-align: center;
-width: 100%;
-border: 10px solid rgb(129, 300, 0);
-height: 20px;
-color: red
-margin: 5px 0px 0px 0px; 
+width: 97vw; /* sets width of footer t0 97% of the window */ 
+float: left; /* ensures footer is always at the bottom of the page under article */
+padding: 10px; /* creates space around border and content */
+text-align: center; /* makes content in footer go to the center */
+border: 4px solid rgb(251,195,4); /*  makes border color size and type for footer */
+background-color: rgb(251,211,76); /*  sets background color of footer */
+font-family: "Courier Prime"; /* sets font type  in footer */
+color: rgb(227,84,115); /* sets text color in footer */
+font-size: 1.2em; /* sets font size based on 120% of parent element text size */
 
 }
+
+
+
+.homeimage {
+height: 20vh;  /* sets height of image based on 20% of screen  */
+width: 20vw;  /* sets width of image based on 20% of screen   */
+text-align: center;  /* makes image in home screen align to the center of the element it is in  */
+}
+
+
+.move {
+text-align: center;  /*  makes image align to the center of the aside element in home and about us page  */
+
+}
+
+main {
+min-height: 92.5svh; /*  tells website how much of the screen the main element can inhabit  */
+margin-bottom: -20px; /*  makes space for the footer so it doesn't overlap  */
+}
+
+footer, .movefooter {  
+ height: 20px; /*  sets height of footer and the move footer class to prevent overlap */
+/* 
+
+} 
+
+.yellow {
+
+ background-color: rgb(251,211,76); 
+
+/* turns background color of space between logo and navbar to yellow */
+
+}
+
+.media {
+ color: rgb(227,84,115); /* sets color of icon  */
+font-size: 30px; /* changes size of icons to 30 pixels  */
+padding: 10px; /* creates space between each icon  */
+text-decoration: none;  /* gets rid of and random lines on icons  */
+}
+
+.media:hover {
+ color: rgb(236,132,155); /* when someone hovers of icon it changes color  */
+
+}
+
+.yellow {
+
+ background-color: rgb(251,211,76); 
+
+/* turns background color of space between logo and navbar to yellow */
+
+}
+
+
+
+
+
+
+
+
+
 
