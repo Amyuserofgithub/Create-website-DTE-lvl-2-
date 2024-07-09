@@ -11,8 +11,10 @@ h1 {
 
 
 
-body{ 
+body { 
 background-color: rgb(236,132,155); /* styles the webpage body with a dark pink background */
+
+background: linear-gradient(90deg, rgb(243,188,196), rgb(236,132,155)); /* creates a gradient from left to right in the body of my page */
 
 }
 
@@ -56,6 +58,8 @@ margin: 0px; /* ensures there's no blank  space around the logo in navbar */
   
 .navbar a:hover{
   background-color:  rgb(251,195,4);; /* sets background color of the nav bar when a person hovers over it */
+
+transition: color 0.4s; /* slows the transition between regular color and hover color  */
   
 } 
 
@@ -174,7 +178,7 @@ margin-bottom: -20px; /*  makes space for the footer so it doesn't overlap  */
 }
 
 footer, .movefooter {  
- height: 20px; /*  sets height of footer and the move footer class to prevent overlap */
+ height: 80px; /*  sets height of footer and the move footer class to prevent overlap */
 /* 
 
 } 
@@ -187,23 +191,62 @@ footer, .movefooter {
 
 }
 
-.media {
- color: rgb(227,84,115); /* sets color of icon  */
-font-size: 30px; /* changes size of icons to 30 pixels  */
+
+
+.face {
+ color: rgb(59, 89, 152 ); /* sets color of icon  */
+ font-size: 30px; /* changes size of icons to 30 pixels  */
 padding: 10px; /* creates space between each icon  */
 text-decoration: none;  /* gets rid of and random lines on icons  */
-}
 
-.media:hover {
- color: rgb(236,132,155); /* when someone hovers of icon it changes color  */
 
 }
+
+.yt {
+
+ color: rgb(230,33,23); /* sets color of icon  */
+ font-size: 30px; /* changes size of icons to 30 pixels  */
+padding: 10px; /* creates space between each icon  */
+text-decoration: none;  /* gets rid of and random lines on icons  */
+
+}
+
+.gram {
+ color: rgb(131,58,180); /* sets color of icon  */
+font-size: 30px; /* changes size of icons to 30 pixels  */
+padding-left: 10px; /* creates space between each icon  */
+text-decoration: none;  /* gets rid of and random lines on icons  */
+
+}
+
+
+
+
+.yt:hover {
+ color: rgb(196,48,43); /* when someone hovers of icon it changes color  */
+transition: color 0.4s; /* makes the transition between regular color and hover slower */
+
+}
+
+.face:hover {
+ color: rgb(24,119,242); /* when someone hovers of icon it changes color  */
+transition: color 0.4s; /* makes the transition between regular color and hover slower */
+
+}
+
+.gram:hover {
+ color:rgb(221, 42, 123); /* when someone hovers of icon it changes color  */
+transition: color 0.4s; /* makes the transition between regular color and hover slower */
+
+}
+
+
+
+
 
 .yellow {
 
- background-color: rgb(251,211,76); 
-
-/* turns background color of space between logo and navbar to yellow */
+ background-color: rgb(251,211,76); /* turns background color of space between logo and navbar to yellow */
 
 }
 
